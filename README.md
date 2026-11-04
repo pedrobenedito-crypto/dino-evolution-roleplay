@@ -21,6 +21,7 @@ Com cheats ligados:
 - `/dino reset`
 - Tecla `R`: Dash (gasta fome, 3 s de recarga)
 
-Os modelos, texturas e animações em `src/main/resources/assets/dinoevolution/` são
+O **Estegossauro** segue o concept art (verde-oliva, placas laranja, espinhos creme). Os outros 4 dinos
+ainda são blocos simples. Os modelos, texturas e animações em `src/main/resources/assets/dinoevolution/` são
 **placeholders de blocos**. Substitua pelos seus do Blockbench mantendo os nomes dos arquivos
 e as animações `idle`, `walk`, `run` e `swim`.
