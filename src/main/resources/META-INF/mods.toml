@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dinoevolution"
+version="1.0.0"
+displayName="Dino Evolution Roleplay"
+description='''
+Vire um dinossauro bebê e evolua até a fase adulta.
+'''
+
+[[dependencies.dinoevolution]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dinoevolution]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dinoevolution]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.4,)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,329 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.ankylosaurus",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 6,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                5,
+                -10
+              ],
+              "size": [
+                16,
+                8,
+                22
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -6,
+                13,
+                -7
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            },
+            {
+              "origin": [
+                -6,
+                13,
+                -1
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            },
+            {
+              "origin": [
+                -6,
+                13,
+                5
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            },
+            {
+              "origin": [
+                4,
+                13,
+                -7
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            },
+            {
+              "origin": [
+                4,
+                13,
+                -1
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            },
+            {
+              "origin": [
+                4,
+                13,
+                5
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            10,
+            -10
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                6,
+                -16
+              ],
+              "size": [
+                6,
+                5,
+                6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tail",
+          "pivot": [
+            0,
+            9,
+            12
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -2,
+                6,
+                12
+              ],
+              "size": [
+                4,
+                4,
+                10
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                5,
+                21
+              ],
+              "size": [
+                8,
+                5,
+                6
+              ],
+              "uv": [
+                112,
+                112
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg_fl",
+          "pivot": [
+            -6.0,
+            5,
+            -7.0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                -9
+              ],
+              "size": [
+                4,
+                5,
+                4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg_fr",
+          "pivot": [
+            6.0,
+            5,
+            -7.0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                4,
+                0,
+                -9
+              ],
+              "size": [
+                4,
+                5,
+                4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg_bl",
+          "pivot": [
+            -6.0,
+            5,
+            7.0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                5
+              ],
+              "size": [
+                4,
+                5,
+                4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg_br",
+          "pivot": [
+            6.0,
+            5,
+            7.0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                4,
+                0,
+                5
+              ],
+              "size": [
+                4,
+                5,
+                4
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
